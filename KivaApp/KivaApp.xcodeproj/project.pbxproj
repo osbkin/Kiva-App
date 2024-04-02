@@ -11,6 +11,8 @@
 		597FC09B2BBC491A001C67D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FC09A2BBC491A001C67D6 /* ContentView.swift */; };
 		597FC09D2BBC491B001C67D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597FC09C2BBC491B001C67D6 /* Assets.xcassets */; };
 		597FC0A02BBC491B001C67D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597FC09F2BBC491B001C67D6 /* Preview Assets.xcassets */; };
+		597FC0A72BBC49EE001C67D6 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FC0A62BBC49EE001C67D6 /* Loan.swift */; };
+		597FC0A92BBC4C17001C67D6 /* LoanStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FC0A82BBC4C17001C67D6 /* LoanStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		597FC09A2BBC491A001C67D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		597FC09C2BBC491B001C67D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		597FC09F2BBC491B001C67D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		597FC0A62BBC49EE001C67D6 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		597FC0A82BBC4C17001C67D6 /* LoanStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				597FC09A2BBC491A001C67D6 /* ContentView.swift */,
 				597FC09C2BBC491B001C67D6 /* Assets.xcassets */,
 				597FC09E2BBC491B001C67D6 /* Preview Content */,
+				597FC0A62BBC49EE001C67D6 /* Loan.swift */,
+				597FC0A82BBC4C17001C67D6 /* LoanStore.swift */,
 			);
 			path = KivaApp;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				597FC09B2BBC491A001C67D6 /* ContentView.swift in Sources */,
+				597FC0A92BBC4C17001C67D6 /* LoanStore.swift in Sources */,
+				597FC0A72BBC49EE001C67D6 /* Loan.swift in Sources */,
 				597FC0992BBC491A001C67D6 /* KivaAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
