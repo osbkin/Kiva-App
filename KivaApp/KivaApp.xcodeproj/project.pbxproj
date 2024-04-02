@@ -8,21 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		597FC0992BBC491A001C67D6 /* KivaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FC0982BBC491A001C67D6 /* KivaAppApp.swift */; };
-		597FC09B2BBC491A001C67D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FC09A2BBC491A001C67D6 /* ContentView.swift */; };
+		597FC09B2BBC491A001C67D6 /* LoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FC09A2BBC491A001C67D6 /* LoanView.swift */; };
 		597FC09D2BBC491B001C67D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597FC09C2BBC491B001C67D6 /* Assets.xcassets */; };
 		597FC0A02BBC491B001C67D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597FC09F2BBC491B001C67D6 /* Preview Assets.xcassets */; };
 		597FC0A72BBC49EE001C67D6 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FC0A62BBC49EE001C67D6 /* Loan.swift */; };
 		597FC0A92BBC4C17001C67D6 /* LoanStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FC0A82BBC4C17001C67D6 /* LoanStore.swift */; };
+		597FC0B12BBC5C3B001C67D6 /* LoanCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FC0B02BBC5C3B001C67D6 /* LoanCellView.swift */; };
+		59AB4A0F2BBC7633003EBE23 /* DetailLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB4A0E2BBC7633003EBE23 /* DetailLoanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		597FC0952BBC491A001C67D6 /* KivaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KivaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		597FC0982BBC491A001C67D6 /* KivaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KivaAppApp.swift; sourceTree = "<group>"; };
-		597FC09A2BBC491A001C67D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		597FC09A2BBC491A001C67D6 /* LoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanView.swift; sourceTree = "<group>"; };
 		597FC09C2BBC491B001C67D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		597FC09F2BBC491B001C67D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		597FC0A62BBC49EE001C67D6 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 		597FC0A82BBC4C17001C67D6 /* LoanStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanStore.swift; sourceTree = "<group>"; };
+		597FC0B02BBC5C3B001C67D6 /* LoanCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanCellView.swift; sourceTree = "<group>"; };
+		59AB4A0E2BBC7633003EBE23 /* DetailLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLoanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				597FC0982BBC491A001C67D6 /* KivaAppApp.swift */,
-				597FC09A2BBC491A001C67D6 /* ContentView.swift */,
+				597FC09A2BBC491A001C67D6 /* LoanView.swift */,
 				597FC09C2BBC491B001C67D6 /* Assets.xcassets */,
 				597FC09E2BBC491B001C67D6 /* Preview Content */,
 				597FC0A62BBC49EE001C67D6 /* Loan.swift */,
 				597FC0A82BBC4C17001C67D6 /* LoanStore.swift */,
+				597FC0B02BBC5C3B001C67D6 /* LoanCellView.swift */,
+				59AB4A0E2BBC7633003EBE23 /* DetailLoanView.swift */,
 			);
 			path = KivaApp;
 			sourceTree = "<group>";
@@ -143,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				597FC09B2BBC491A001C67D6 /* ContentView.swift in Sources */,
+				597FC09B2BBC491A001C67D6 /* LoanView.swift in Sources */,
 				597FC0A92BBC4C17001C67D6 /* LoanStore.swift in Sources */,
+				597FC0B12BBC5C3B001C67D6 /* LoanCellView.swift in Sources */,
+				59AB4A0F2BBC7633003EBE23 /* DetailLoanView.swift in Sources */,
 				597FC0A72BBC49EE001C67D6 /* Loan.swift in Sources */,
 				597FC0992BBC491A001C67D6 /* KivaAppApp.swift in Sources */,
 			);
