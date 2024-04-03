@@ -11,29 +11,37 @@ struct LoanView: View {
     @ObservedObject var loanStore = LoanStore()
     @State private var selectedLoan: Loan?
     
+    let columns: [GridItem] = [GridItem(.flexible())]
+    
     var body: some View {
-        NavigationStack {
-            List {
-                ForEach(loanStore.loans) { loan in
-                    LoanCellView(loan: loan)
-                        .padding(.vertical, 5)
-                        .onTapGesture {
-                            self.selectedLoan = loan
-                        }
+        VStack {
+            HeaderView()
+            
+            ScrollView(.vertical) {
+                LazyVGrid(columns: columns) {
+                    ForEach(loanStore.loans) { loan in
+                        LoanCellView(loan: loan)
+                            .padding(.vertical, 8)
+                            .onTapGesture {
+                                self.selectedLoan = loan
+                            }
+                    }
                 }
             }
-            .navigationTitle("Kiva Loan")
+            .task {
+                self.loanStore.fetchLatestLoans()
+            }
+            .sheet(item: $selectedLoan) { loan in
+                DetailLoanView(loan: loan)
+                    .ignoresSafeArea()
+                    .presentationDetents([.medium])
+                    .presentationCornerRadius(48)
+            }
+            .background(.bgColor1)
         }
-        .task {
-            self.loanStore.fetchLatestLoans()
-        }
-        .sheet(item: $selectedLoan) { loan in
-            DetailLoanView(loan: loan)
-                .ignoresSafeArea()
-                .presentationDetents([.medium])
-        }
-        
+        .background(.bgColor1)
     }
+    
 }
 
 #Preview {
