@@ -11,7 +11,7 @@ import SwiftUI
 struct KivaAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoanView()
         }
     }
 }
