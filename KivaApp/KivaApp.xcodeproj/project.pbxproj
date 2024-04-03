@@ -16,6 +16,8 @@
 		597FC0B12BBC5C3B001C67D6 /* LoanCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FC0B02BBC5C3B001C67D6 /* LoanCellView.swift */; };
 		59AB4A0F2BBC7633003EBE23 /* DetailLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB4A0E2BBC7633003EBE23 /* DetailLoanView.swift */; };
 		59C44CA32BBD56B6003E5AAE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C44CA22BBD56B6003E5AAE /* HeaderView.swift */; };
+		59F989182BBDCB3900D17ED3 /* CustomSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F989172BBDCB3900D17ED3 /* CustomSliderView.swift */; };
+		59F9891A2BBDCC6600D17ED3 /* LoadFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F989192BBDCC6600D17ED3 /* LoadFilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		597FC0B02BBC5C3B001C67D6 /* LoanCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanCellView.swift; sourceTree = "<group>"; };
 		59AB4A0E2BBC7633003EBE23 /* DetailLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLoanView.swift; sourceTree = "<group>"; };
 		59C44CA22BBD56B6003E5AAE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		59F989172BBDCB3900D17ED3 /* CustomSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderView.swift; sourceTree = "<group>"; };
+		59F989192BBDCC6600D17ED3 /* LoadFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				597FC0B02BBC5C3B001C67D6 /* LoanCellView.swift */,
 				59AB4A0E2BBC7633003EBE23 /* DetailLoanView.swift */,
 				59C44CA22BBD56B6003E5AAE /* HeaderView.swift */,
+				59F989172BBDCB3900D17ED3 /* CustomSliderView.swift */,
+				59F989192BBDCC6600D17ED3 /* LoadFilterView.swift */,
 			);
 			path = KivaApp;
 			sourceTree = "<group>";
@@ -154,9 +160,11 @@
 			files = (
 				597FC09B2BBC491A001C67D6 /* LoanView.swift in Sources */,
 				597FC0A92BBC4C17001C67D6 /* LoanStore.swift in Sources */,
+				59F989182BBDCB3900D17ED3 /* CustomSliderView.swift in Sources */,
 				597FC0B12BBC5C3B001C67D6 /* LoanCellView.swift in Sources */,
 				59AB4A0F2BBC7633003EBE23 /* DetailLoanView.swift in Sources */,
 				597FC0A72BBC49EE001C67D6 /* Loan.swift in Sources */,
+				59F9891A2BBDCC6600D17ED3 /* LoadFilterView.swift in Sources */,
 				597FC0992BBC491A001C67D6 /* KivaAppApp.swift in Sources */,
 				59C44CA32BBD56B6003E5AAE /* HeaderView.swift in Sources */,
 			);

@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct HeaderView: View {
+    @ObservedObject var loanStore = LoanStore()
+    @State var maximumLoanAmount: Double = 0.0
+    @State private var filterEnabled = false
+    
     var body: some View {
         ZStack {
             Rectangle()
@@ -38,22 +42,7 @@ struct HeaderView: View {
                     .padding(.bottom, 40)
                 
                 // slider
-                RoundedRectangle(cornerRadius: 2)
-                    .fill(.bg)
-                    .opacity(0.4)
-                    .frame(height: 4)
-                    .padding([.trailing, .leading], 16)
-                    .overlay {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 20)
-                                .stroke(Color(.warmMint), lineWidth: 4)
-                                .frame(width: 60, height: 60)
-                            
-                            Circle()
-                                .frame(width: 20)
-                                .foregroundColor(.bg)
-                        }
-                    }
+                
                 Spacer()
             }
         }
