@@ -40,9 +40,6 @@ struct HeaderView: View {
                     .fontWeight(.bold)
                     .foregroundColor(.warmMint)
                     .padding(.bottom, 40)
-                
-                // slider
-                
                 Spacer()
             }
         }

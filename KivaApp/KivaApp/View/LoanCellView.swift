@@ -39,7 +39,6 @@ struct LoanCellView: View {
                     
                     Text(loan.country)
                         .font(.system(.body))
-                    
                 }
                 Spacer()
                 VStack {
@@ -47,7 +46,6 @@ struct LoanCellView: View {
                         .font(.system(.title2))
                         .bold()
                 }
-                
             }
             .frame(minWidth: 0, maxWidth: .infinity)
             .padding(8)

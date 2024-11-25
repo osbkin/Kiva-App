@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct DetailLoanView: View {
-    
     var loan: Loan
     
     var body: some View {
@@ -20,7 +19,7 @@ struct DetailLoanView: View {
                     .frame(width: 50, height: 4, alignment: .center)
                     .padding(.top, 4)
             }
-            
+            Spacer()
             HStack(spacing: 5) {
                 VStack(alignment: .leading, spacing: 5) {
                     Text(loan.name)
@@ -44,11 +43,14 @@ struct DetailLoanView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(maxHeight: 200)
-                    .cornerRadius(10)
+                    .clipShape(.rect(cornerRadius: 10))
+
                     .overlay {
                         Rectangle()
-                            .opacity(0.3)
+                            .background(.dark)
                             .cornerRadius(10)
+                            .opacity(0.3)
+                            
                         Text("$\(loan.amount)")
                             .font(.system(size: 50))
                             .bold()

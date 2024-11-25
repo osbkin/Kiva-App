@@ -63,9 +63,7 @@ struct LoanView: View {
             .background(.bgColor1)
         }
         .background(.bgColor1)
-        
     }
-    
 }
 
 #Preview {

@@ -9,9 +9,8 @@ import SwiftUI
 
 struct CustomSliderView: View {
     
-    
     @State var offset: CGFloat = 0
-  
+    
     @State private var maximumLoanAmount: Double = 0.0
     @State private var filterEnabled = false
     
@@ -52,8 +51,7 @@ struct CustomSliderView: View {
                             // padding + circle radius
                             if value.location.x > 20 && value.location.x <= UIScreen.main.bounds.width - 60 {
                                 offset = value.location.x - 20
-                                // updating Progress
-                                //                                let progress = offset / (UIScreen.main.bounds.width - 60)
+                                
                                 let progress = (offset / (UIScreen.main.bounds.width - 60)) * 2000
                                 print(progress)
                                 sliderProgress = progress <= 15000 ? sliderProgress : 15000
@@ -63,9 +61,7 @@ struct CustomSliderView: View {
                             .onEnded({ (value) in
                                 lastDragValue = offset
                                 
-                                
                             }))
-                
                 
             })
             
@@ -75,7 +71,6 @@ struct CustomSliderView: View {
                 .padding(.top, 10)
         }
         .padding(.horizontal, 8)
-        
     }
 }
 
