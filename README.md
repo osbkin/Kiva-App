@@ -17,7 +17,7 @@ Kiwa is a SwiftUI-based social application designed to connect users who need as
 
 ## Screenshots
 
-<img src="https://github.com/osbkin/Kiva-App/blob/main/kiwa_pic1.png" alt="Home menu" width="300" height="auto">   <img src="https://github.com/osbkin/Kiva-App/blob/main/kiwa_pic2.png" alt="Filtering" width="300" height="auto">   <img src="https://github.com/osbkin/Kiva-App/blob/main/kiwa_pic3.png" alt="Detail View" width="300" height="auto">
+<img src="https://github.com/osbkin/Kiva-App/blob/main/kiwa_pic1.png" alt="Home menu" width="200" height="auto">   <img src="https://github.com/osbkin/Kiva-App/blob/main/kiwa_pic2.png" alt="Filtering" width="200" height="auto">   <img src="https://github.com/osbkin/Kiva-App/blob/main/kiwa_pic3.png" alt="Detail View" width="200" height="auto">
 
 ## How it works
 <img src="https://github.com/osbkin/Kiva-App/blob/main/Kiwa_app_video.gif" alt="Overview" style="display: block; margin: 0 auto;" width="300">
